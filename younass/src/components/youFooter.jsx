@@ -1,11 +1,12 @@
 import younass from '../assets/younass.png'
 import {Link} from 'react-router-dom'
+// import younass from '../assets/younass.png'
 function youFooter(){
     return(<>
-    <div className='mt-20'>
+    <div className='px-2 mt-20'>
         <div className="md:flex justify-between">
-            <div className="">
-                <img src="" alt="" />
+            <div className="mb-10">
+                <img src={younass} alt="" />
                 <div>
                     <strong>Phone</strong><span>: +2347033180303</span><br />
                     <strong>Email</strong><span>: younasscollection@gmail.com</span>
@@ -37,9 +38,9 @@ function youFooter(){
                 </div>
             </div>
         </div>
-        <div>
+        <div className='mt-10'>
             <p>© 2024 All rights reserved. Powered by BelSoft systems Ltd</p>
-            <p>Built by Adejumo Adetomiwa</p>
+            <p className='text-xl font-semibold'>Built by Adejumo Adetomiwa</p>
         </div>
     </div>
     </>)

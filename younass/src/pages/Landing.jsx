@@ -7,7 +7,7 @@ import cartImg2 from '../assets/cartImg2.jpg'
 import cartImg3 from '../assets/cartImg3.jpg'
 import cartImg4 from '../assets/cartImg4.png'
 import YouHeader from "../components/youHeader"
-import younass from'../assets/younass.png'
+import younassBg from'../assets/younassBg.jpg'
 import YouFooter from "../components/youFooter"
 
 
@@ -104,14 +104,17 @@ function Landing(){
 
 
 
-            <div className="pb-20 mb:flex justify-between pb-20">
-                <div className="mb-10">
-                    <h3>ABOUT YOUNASS</h3>
-                    <p>YOUNASS COLLECTION IS A NOMADIC FASHION BRAND FOR WOMEN AND MEN WHO WANT MODERN, FUN, TRADITIONAL AND UNIQUE DESIGNS. THE FUSION OF MODERN AND TRADITIONAL INFLUENCES, AS WELL AS GLOBAL INSPIRATIONS HIGHLIGHTS THE ESSENCE OF OUR BRAND...</p>
+            <div className="px-2 py-20 md:flex justify-between">
+                <div className="mb-10 md:w-1/2">
+                    <h3 className="mb-2 font-semibold text-xl md:text-2xl">ABOUT YOUNASS</h3>
+                    <p className="mb-2">YOUNASS COLLECTION IS A NOMADIC FASHION BRAND FOR WOMEN AND MEN WHO WANT MODERN, FUN, TRADITIONAL AND UNIQUE DESIGNS. THE FUSION OF MODERN AND TRADITIONAL INFLUENCES, AS WELL AS GLOBAL INSPIRATIONS HIGHLIGHTS THE ESSENCE OF OUR BRAND...</p>
                     <button className="bg-indigo-950 text-white px-2 py-1">READ MORE <i className="bi bi-arrow-right"></i></button>
                 </div>
-                <div className="sm:w-full">
-                    <img src={younass} alt="" />
+                <div className="md:w-1/2">
+                    <div className="flex justify-end">
+                        <img src={younassBg} alt="" />
+                    </div>
+                    
                 </div>
             </div>
 

@@ -47,7 +47,7 @@ function Landing(){
                             <button>Children</button>
                         </nav>
                     </div>
-                    <div className='flex justify-between w-extra sm:overflow-x-scroll md:overflow-x-hidden'>
+                    <div className='flex justify-between gap-5 w-extra sm:overflow-x-scroll md:overflow-x-hidden'>
                             <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
                             <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
                             <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
@@ -108,7 +108,7 @@ function Landing(){
                 <div className="mb-10">
                     <h3>ABOUT YOUNASS</h3>
                     <p>YOUNASS COLLECTION IS A NOMADIC FASHION BRAND FOR WOMEN AND MEN WHO WANT MODERN, FUN, TRADITIONAL AND UNIQUE DESIGNS. THE FUSION OF MODERN AND TRADITIONAL INFLUENCES, AS WELL AS GLOBAL INSPIRATIONS HIGHLIGHTS THE ESSENCE OF OUR BRAND...</p>
-                    <button className="">READ MORE <i className="bi bi-arrow-right"></i></button>
+                    <button className="bg-indigo-950 text-white px-2 py-1">READ MORE <i className="bi bi-arrow-right"></i></button>
                 </div>
                 <div className="sm:w-full">
                     <img src={younass} alt="" />

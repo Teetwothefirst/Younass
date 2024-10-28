@@ -39,7 +39,7 @@ function youFooter(){
             </div>
         </div>
         <div className='mt-10'>
-            <p>© 2024 All rights reserved. Powered by BelSoft systems Ltd</p>
+            <p>© 2024 All rights reserved. Powered by <span className='text-blue-700'>BelSoft systems Ltd</span></p>
             <p className='text-xl font-semibold'>Built by Adejumo Adetomiwa</p>
         </div>
     </div>

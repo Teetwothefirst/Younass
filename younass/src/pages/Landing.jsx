@@ -7,6 +7,8 @@ import cartImg2 from '../assets/cartImg2.jpg'
 import cartImg3 from '../assets/cartImg3.jpg'
 import cartImg4 from '../assets/cartImg4.png'
 import YouHeader from "../components/youHeader"
+import younass from'../assets/younass.png'
+import YouFooter from "../components/youFooter"
 
 
 
@@ -102,14 +104,18 @@ function Landing(){
 
 
 
-
-
-
-            <div className="pb-20 mb:flex justify-between">
-                <div></div>
-                <div></div>
+            <div className="pb-20 mb:flex justify-between pb-20">
+                <div className="mb-10">
+                    <h3>ABOUT YOUNASS</h3>
+                    <p>YOUNASS COLLECTION IS A NOMADIC FASHION BRAND FOR WOMEN AND MEN WHO WANT MODERN, FUN, TRADITIONAL AND UNIQUE DESIGNS. THE FUSION OF MODERN AND TRADITIONAL INFLUENCES, AS WELL AS GLOBAL INSPIRATIONS HIGHLIGHTS THE ESSENCE OF OUR BRAND...</p>
+                    <button className="">READ MORE <i className="bi bi-arrow-right"></i></button>
+                </div>
+                <div className="sm:w-full">
+                    <img src={younass} alt="" />
+                </div>
             </div>
 
+            <YouFooter></YouFooter>
 
 
 

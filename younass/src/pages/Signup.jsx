@@ -2,13 +2,13 @@ import YouHeader from '../components/youHeader'
 import YouFooter from '../components/youFooter'
 import { Link } from 'react-router-dom';
 
-function Login(){
+function Signup(){
     return (<>
     <div>
         <YouHeader></YouHeader>
         <div className='py-10 flex justify-center items-center'>
             <div className='w-full md:w-1/2'>
-                <h2>LOGIN TO ACCOUNT</h2>
+                <h2>SIGN UP</h2>
                 <br />
                 <form action="/" className='w-full'>
                     <input type="email" className='w-full p-2 border rounded-s'/>
@@ -17,14 +17,12 @@ function Login(){
                     <input type="password" className='w-full border rounded-s p-2'/>
                     <br />
                     <br />
-                    <div className='flex justify-between'>
-                        <div>
-                            <input type="checkbox" name="" id=""  className='pe-2'/>
-                           <span> Remember me?</span>
-                        </div>
-                        <div>
-                            <Link to={`/about`} className='underline'>Forgot Password</Link>
-                        </div>
+                    <input type="password" className='w-full border rounded-s p-2'/>
+                    <br />
+                    <br />
+                    <div className=''>
+                        <input type="checkbox" name="" id=""  className='pe-2'/>
+                        <span> Remember me?</span>
                     </div>
                     <br />
                     <br />
@@ -43,4 +41,4 @@ function Login(){
     </>)
 }
 
-export default Login;
+export default Signup;

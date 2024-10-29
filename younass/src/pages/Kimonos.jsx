@@ -4,6 +4,10 @@ import KimonoHero from '../assets/kimonoHero.png'
 import younassWhite from '../assets/younassWhite.png'
 import cartImg from '../assets/cartImg1.jpg'
 import cartImg1 from '../assets/cartImg.jpg'
+import cartImg2 from '../assets/cartImg2.jpg'
+import Product from "../components/product";
+import cartImg3 from '../assets/cartImg3.jpg'
+import Showcase from "../components/Showcase";
 
 
 function Kimonos(){
@@ -48,12 +52,15 @@ function Kimonos(){
                         </div>
                         <div className='flex justify-between gap-5 w-extra sm:overflow-x-scroll md:overflow-x-hidden'>
                                 <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
-                                <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
-                                <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
-                                <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product> 
+                                <Product image={cartImg1} text={'The Bold'} amount={`N150,000`}></Product>
+                                <Product image={cartImg2} text={'The Bold'} amount={`N150,000`}></Product>
+                                <Product image={cartImg3} text={'The Bold'} amount={`N150,000`}></Product> 
                         </div>
                     </div>
                     </div>
+                </div>
+                <div>
+                    <Showcase></Showcase>
                 </div>
             </div>
             <YouFooter></YouFooter>

@@ -32,7 +32,8 @@ const router = createBrowserRouter([
   {
     path: '/kimonos',
     element: <Kimonos/>
-  }
+  },
+  
 ])
 
 createRoot(document.getElementById('root')).render(

@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 function youHeader(){
     return (<>
-        <div className='flex justify-between items-center border-b-2 border-black py-5 px-3'>
+        
+        <div className='w-full z-20 bg-white fixed flex justify-between items-center border-b-2 border-black py-5 px-3'>
             <div className="md:w-1/3"><img src={younass} alt="" /></div>
             <div className='md:w-2/3'>
                 <div className='hidden md:flex justify-between'>
@@ -15,8 +16,8 @@ function youHeader(){
                         <p className=''>ABOUT YOUNASS</p>
                     </div>
                     <div className='flex gap-3'>
-                        <button><i class="bi bi-search pe-2"></i><span>SEARCH</span></button>
-                        <button><i class="bi bi-basket3 pe-2"></i><span>CART</span></button>
+                        <button><i className="bi bi-search pe-2"></i><span>SEARCH</span></button>
+                        <button><i className="bi bi-basket3 pe-2"></i><span>CART</span></button>
                         <Link to={`/login`}>LOGIN</Link>
                     </div>
                 </div>
@@ -25,6 +26,7 @@ function youHeader(){
                 </div>
             </div>
         </div>
+        
     </>)
 }
 

@@ -8,6 +8,7 @@ import cartImg2 from '../assets/cartImg2.jpg'
 import Product from "../components/product";
 import cartImg3 from '../assets/cartImg3.jpg'
 import Showcase from "../components/Showcase";
+import Livingthelife from '../assets/livingthelife.png'
 
 
 function Kimonos(){
@@ -64,6 +65,14 @@ function Kimonos(){
                         <h3 className="text-center text-semibold text-2xl py-5">BEST SELLING</h3>
                     </div>
                     <Showcase></Showcase>
+                </div>
+
+                {/* Living the Life */}
+                <div className="relative">
+                    <img src={Livingthelife} alt="Living the Fashion life"  />
+                    <div className="absolute top-0 w-full h-full md:flex justify-start items-center">
+                        <h4 className="text-white md:text-2xl">LIVING THE LIFE-STYLE OF FASHION</h4>
+                    </div>
                 </div>
             </div>
             <YouFooter></YouFooter>

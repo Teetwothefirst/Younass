@@ -19,7 +19,7 @@ function Kimonos(){
                     <img src={KimonoHero} alt="" />
                     <div className="absolute w-full h-full top-0 md:flex justify-between items-center">
                         <div>
-                            <h4 className="text-white sm:text-lg w-full md:text-4xl w-3/4">DISCOVER ELEGANCY IN A UNIQUE WAY</h4>
+                            <h4 className="text-white sm:text-lg w-full md:text-4xl w-4/6">DISCOVER ELEGANCY IN A UNIQUE WAY</h4>
                         </div>
                         <div>
                             <img src={younassWhite} alt="" className=""/>
@@ -31,13 +31,13 @@ function Kimonos(){
                         <p>Sales 50% Discount Sales 50% Discount Sales 50% Discount Sales 50% Discount Sales 50% Discount Sales 50% Discount Sales 50% Discount</p>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <div className="flex w-full overflow-x-scroll">
                         <div className="">
                             <img src={cartImg} alt="" className="border rounded-full" width={50} height={50}/>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div>
                     <div className="otherProduct">
                     <div className="my-20 py-24">
@@ -50,16 +50,19 @@ function Kimonos(){
                                 <button className="">CHILDREN</button>
                             </nav>
                         </div>
-                        <div className='flex justify-between gap-5 w-extra sm:overflow-x-scroll md:overflow-x-hidden'>
+                        <div className='flex justify-between gap-5 px-5 w-extra sm:overflow-x-scroll md:overflow-x-hidden'>
                                 <Product image={cartImg} text={'The Bold'} amount={`N150,000`}></Product>
                                 <Product image={cartImg1} text={'The Bold'} amount={`N150,000`}></Product>
-                                <Product image={cartImg2} text={'The Bold'} amount={`N150,000`}></Product>
+                                <Product image={cartImg3} text={'The Bold'} amount={`N150,000`}></Product>
                                 <Product image={cartImg3} text={'The Bold'} amount={`N150,000`}></Product> 
                         </div>
                     </div>
                     </div>
                 </div>
                 <div>
+                    <div>
+                        <h3 className="text-center text-semibold text-2xl py-5">BEST SELLING</h3>
+                    </div>
                     <Showcase></Showcase>
                 </div>
             </div>

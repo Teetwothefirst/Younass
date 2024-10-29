@@ -9,6 +9,7 @@ import cartImg4 from '../assets/cartImg4.png'
 import YouHeader from "../components/youHeader"
 import younassBg from'../assets/younassBg.jpg'
 import YouFooter from "../components/youFooter"
+import { Link } from "react-router-dom"
 
 
 
@@ -81,7 +82,7 @@ function Landing(){
                                 <div className="absolute top-40 w-full h-full flex justify-center items-center">
                                     <div className="text-black md:text-white">
                                     {/* <p className="text-center text-s md:text-xl">FALL/WINTER 2024</p> */}
-                                    <h2 className="text-xl md:text-4xl">KIMONOS AND JACKETS</h2>
+                                    <h2 className="text-xl md:text-4xl"><Link to={`/kimonos`}>KIMONOS AND JACKETS</Link></h2>
                                     <div className="sm:text-s md:text-center">WOMEN <i className="bi bi-arrow-right"></i> CHILDREN <i className="bi bi-arrow-right"></i> MEN <i className="bi bi-arrow-right"></i></div>
                                     </div>
                                 </div>

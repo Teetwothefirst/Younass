@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Login from './pages/Login.jsx'
 import ProductDetails from './components/productDetails.jsx'
 import Signup from './pages/Signup.jsx'
+import Kimonos from './pages/Kimonos.jsx'
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <Signup/>
+  },
+  {
+    path: '/kimonos',
+    element: <Kimonos/>
   }
 ])
 

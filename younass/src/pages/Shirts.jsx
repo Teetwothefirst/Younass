@@ -1,6 +1,10 @@
 import YouHeader from "../components/youHeader";
 import cartImg from '../assets/cartImg.jpg'
 import Product from "../components/product";
+import Shirtproduct from "../components/shirtProduct";
+import cartImg4 from '../assets/cartImg4.png'
+import cartImg5 from '../assets/cartImg5.png'
+import cartImg6 from '../assets/cartImg6.png'
 
 
 function Shirts(){
@@ -17,7 +21,11 @@ function Shirts(){
                 </p>
                 <div className="">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-                        <Product image={cartImg} text={`The Brave`} amount={`N150,000`}></Product>
+                        {/* <Product image={cartImg} text={`The Brave`} amount={`N150,000`}></Product> */}
+                        <Shirtproduct image={cartImg} text={`The Brave`} amount={`N150,000`}></Shirtproduct>
+                        <Shirtproduct image={cartImg4} text={`The Brave`} amount={`N150,000`}></Shirtproduct>
+                        <Shirtproduct image={cartImg5} text={`The Brave`} amount={`N150,000`}></Shirtproduct>
+                        <Shirtproduct image={cartImg6} text={`The Brave`} amount={`N150,000`}></Shirtproduct>
                     </div>
                 </div>
             </div>

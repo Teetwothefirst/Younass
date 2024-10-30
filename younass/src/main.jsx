@@ -7,7 +7,11 @@ import Login from './pages/Login.jsx'
 import ProductDetails from './components/productDetails.jsx'
 import Signup from './pages/Signup.jsx'
 import Kimonos from './pages/Kimonos.jsx'
-
+import Dresses from './pages/Dresses.jsx'
+import Kaftans from './pages/Kaftans.jsx'
+import Skirts from './pages/Skirts.jsx'
+import Shirts from './pages/Shirts.jsx'
+import Interior from './pages/Interior.jsx'
 
 const router = createBrowserRouter([
   {
@@ -33,7 +37,27 @@ const router = createBrowserRouter([
     path: '/kimonos',
     element: <Kimonos/>
   },
-  
+  {
+    path: '/dresses',
+    element: <Dresses/>
+  },
+  {
+    path: 'kaftan',
+    element: <Kaftans />
+  },
+  {
+    path: '/skirts',
+    element: <Skirts/>
+  },
+  {
+    path: '/shirts',
+    element: <Shirts/>
+  },
+
+  {
+    path: '/interior',
+    element: <Interior/>
+  }
 ])
 
 createRoot(document.getElementById('root')).render(

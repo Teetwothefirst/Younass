@@ -21,12 +21,12 @@ function youFooter(){
             <div className="flex gap-5">
                 <div>
                     <h3 className='font-semibold text-2xl'>PRODUCTS</h3>
-                    <p>KIMONOS/JACKETS</p>
-                    <p>DRESSES</p>
-                    <p>KAFTAN/BUBUS</p>
-                    <p>SKIRTS</p>
-                    <p>SHIRTS</p>
-                    <p>YOUNASS INTERIOR</p>
+                    <p><Link to={`/kimonos`}>KIMONOS/JACKETS</Link></p>
+                    <p><Link to={`/dresses`}>DRESSES</Link></p>
+                    <p><Link to={`/kaftan`}>KAFTAN/BUBUS</Link></p>
+                    <p><Link to={`/skirts`}>SKIRTS</Link></p>
+                    <p><Link to={`/shirts`}>SHIRTS</Link></p>
+                    <p><Link to={`/interior`}>YOUNASS INTERIOR</Link></p>
                 </div>
                 <div>
                     <h3 className='font-semibold text-2xl'>LEGAL TERMS AND CONDITIONS</h3>

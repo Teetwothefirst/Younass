@@ -45,3 +45,12 @@
   background-image: url('./assets/cartImg2.jpg');
   width: 100%;
 } */
+
+/* ==============================================Custom Styling  ===============================================*/
+/* Shirts.jsx Styling */
+
+.shirtflow{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 15px;
+}

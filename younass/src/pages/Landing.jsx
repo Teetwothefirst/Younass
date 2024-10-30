@@ -22,7 +22,7 @@ function Landing(){
         {/* <CheckOut></CheckOut> */}
         <div>
             <YouHeader></YouHeader>
-            <div className="md:flex">
+            <div className="pt-20 md:flex">
                 <div className="relative">
                     <img src={CartImg} alt="" className="h-full"/>
                     <div className="absolute bottom-2 left-2 md:absolute bottom-10 left-10">
